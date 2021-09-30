@@ -6,4 +6,9 @@ print("Hello Sadia")
 print("this, is a code" )	# with a comma
 print( 'this' + 'that')	# with a +
 # 3. print "Hello 42!" with the number in a variable
-print('hello + 42') 
+print( "Hello" , 42, "!" )
+print( "Hello " + str(42) + "!")
+fav_food1 = "sushi"
+fav_food2 = "rice"
+print( "I love to eat {} and {}.".format(fav_food1,fav_food2) )
+print( f"I love to eat {fav_food1}. and {fav_food2}." )
